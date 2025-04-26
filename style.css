@@ -1,0 +1,381 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.whole {
+  background-color: rgb(255, 254, 254);
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  width: 97%;
+}
+
+.logo {
+  font-size: 40px;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  color: white;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-family: 'Lora', serif;
+}
+
+.categories {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 150px;
+}
+
+.categories .btn {
+  background-color: black;
+  color: white;
+}
+.categories .btn:hover {
+  background-color: goldenrod;
+  color: rgb(0, 0, 0);
+}
+
+.btn {
+  background-color: #fefafa;
+  color: rgb(18, 18, 18);
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  transition: background 0.3s ease;
+}
+
+.greet {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 40px 80px;
+  gap: 30px;
+  margin-top: 200px;
+}
+
+.text {
+  font-family: 'Cormorant Garamond', serif;
+  max-width: 800px;
+  color: black;
+}
+
+.title {
+  font-size: 90px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.title-des {
+  font-size: 40px;
+  line-height: 1.5;
+}
+
+
+.collection {
+  background-color: black;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 150px 50px;
+}
+.collection1 a:hover{
+  color: goldenrod;
+}
+
+.collection h2 {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
+  color: #fffbfb;
+  margin-bottom: 20px;
+}
+
+.collection p {
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.product-grid {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  background: rgb(12, 12, 12);
+  border-radius: 10px;
+  width: 450px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid white;
+  border: solid 2px black;
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 8px;
+  height: 450px;
+  object-fit: cover;
+}
+
+.product-card h3 {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: bold;
+  font-size: 30px;
+  margin: 15px 0 10px;
+  color: white;
+}
+
+.women {
+  background-color: white;
+  padding: 100px 50px;
+}
+
+.women h2 {
+  color: black;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 40px
+}
+
+.womenproduct-card {
+  border: solid 2px black;
+}
+
+.wantmore {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.wantmore h3 {
+  font-size: 30px;
+  font-family: 'Playfair Display', serif;
+  color: #000000;
+}
+
+.wantmore p {
+  font-size: 24px;
+  font-family: 'Cormorant Garamond', serif;
+  color: #0c0b0b;
+  margin: 10px 0 20px 0;
+}
+
+.wantmore .btn {
+  background-color: #0f0e0e;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 25px;
+}
+
+/**wood ni diria**/
+.woody-page {
+  background-color: rgb(255, 255, 255);
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  position: relative;
+}
+
+.collection1 {
+  margin: 10px 10px;
+  border: solid 2px black;
+  border-radius: 15px;
+  background-color: rgb(255, 255, 255);
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 80px 50px;
+}
+
+.collection1 h2 {
+  text-align: left;
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
+  color: #000000;
+  margin-bottom: 80px;
+}
+
+.product-gridw {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  flex-wrap: wrap;
+}
+
+.product-cardw {
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+  width: 450px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid white;
+}
+
+.product-cardw img {
+  width: 100%;
+  border-radius: 8px;
+  height: 450px;
+  object-fit: cover;
+}
+
+.product-cardw h3 {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: bold;
+  font-size: 30px;
+  margin: 15px 0 10px;
+  color: rgb(0, 0, 0);
+}
+
+.product-cardw p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 17px;
+  line-height: 1.5;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+.footer {
+  background-color: #000000;
+  color: #fff;
+  padding: 40px 20px 20px;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+.footer h4 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.footer p {
+  font-family: 'Lora', serif;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.woody-trivia {
+  margin: 5px 10px;
+  border: solid 2px rgb(255, 255, 255);
+  border-radius: 15px;
+  color: #000000;
+  text-align: center;
+  background-color: #000000;
+}
+
+.woody-trivia h6 {
+  font-family: serif;
+  font-size: 40px;
+  color: #fffcfc;
+}
+
+.woody-trivia p {
+  font-family: 'Lora', serif;
+  font-size: 20px;
+  color: #ffffff;
+  line-height: 50px;
+  padding: 0 10px;
+}
+.similar-grid{
+  display: flex;
+  gap: 130px;
+}
+
+.similar-prod {
+  background-color: white;
+  padding: 20px 20px;
+  border: solid 2px goldenrod;
+ 
+}
+
+.holder img{
+  width: 250px;
+  height: 200px;
+}
+.similar-prod h6 {
+  font-family: serif;
+  font-size: 40px;
+  color: #000000;
+}
+
+/*woodscents1/*/
+
+.product-des{
+  display: flex;
+  padding: 250px 300px;
+  gap: 50px;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+  
+}
+.product-text{
+  justify-content: center;
+ 
+}
+.product img{
+  width: 700px;
+  height: 700px;
+  border-radius: 10px;
+  
+}
+.product-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: bold;
+  font-size: 60px;
+  margin: 15px 0 10px;
+  color: rgb(0, 0, 0);
+}
+.story p{
+  font-family: 'Lora', serif;
+  font-size: 20px;
+  padding-left: 20px;
+}
+.product-text .btn {
+  background-color: black;
+  color: white;
+  
+}

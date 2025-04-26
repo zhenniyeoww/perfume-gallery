@@ -1,0 +1,93 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.woody-page {
+    background-image: url('1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    position: relative;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 10;
+  }
+  
+  .logo {
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    color: white;
+  }
+  
+  nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  nav ul li a:hover {
+    color: #f1c40f;
+    border-bottom: 2px solid #f1c40f;
+  }
+  .categories {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 80px;
+  }
+  .btn {
+    background-color: #462506;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #9f6920;
+  }
+  .greet {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 20px 80px;
+    gap: 30px;
+    margin-top: 200px;
+  }
+  .text {
+    font-family: 'Cormorant Garamond', serif;
+    max-width: 800px;
+    color: white;
+  }
+  
+  .title {
+    font-size: 70px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .title-des {
+    font-size: 30px;
+    line-height: 1.5;
+  }
